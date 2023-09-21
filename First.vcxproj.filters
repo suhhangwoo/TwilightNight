@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2083f16c-56d3-4288-99e4-21101c73f3ce}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ce81dc15-d2b1-4d1a-b0b5-454e8c5f3dc2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{12ec13b0-9902-4a7d-9c75-add94d464399}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{998c4e3e-b3a1-47f5-9e8c-cc8223527097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowFrame">
+      <UniqueIdentifier>{6058c98b-17bd-4f4f-8038-a76b477790b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mouse">
+      <UniqueIdentifier>{fe49aa8a-c034-48e7-8d8f-80a546a9b0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFrame">
+      <UniqueIdentifier>{465475e5-e342-40fe-a3b7-d328ac1b1e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{e59ab993-bdee-4f91-b28e-52bd857739ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{fb379e8f-6047-4d7f-901c-152e67631a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGR">
+      <UniqueIdentifier>{cfcc76c1-7970-48b3-a7d4-2479ee50b4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Render">
+      <UniqueIdentifier>{59ca97e0-3942-4012-8200-02eb2a0a0208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a228c2b4-f599-4276-bcce-fe53ef2daa3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Weapon">
+      <UniqueIdentifier>{846ad1f7-44bf-437f-950d-cfc16a594013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{c9984d8f-b4a2-4e00-9fdb-949d5dbab924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Enemy">
+      <UniqueIdentifier>{95198430-6d45-4e7d-a80c-f64b512635ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\weapon_round">
+      <UniqueIdentifier>{ff3694cf-f539-4572-9f23-b9dc235d58c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\wepaon_last">
+      <UniqueIdentifier>{ea3fb478-fc59-4794-9147-a5dcbf25dc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI">
+      <UniqueIdentifier>{7889b41a-c245-4a4a-896e-8009d492b420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FX_fall">
+      <UniqueIdentifier>{93a371bc-2c93-43b6-9061-35bec86434c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FX_bounce">
+      <UniqueIdentifier>{98936385-1938-4794-9ec4-add0c7c60db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FX_normal">
+      <UniqueIdentifier>{bd42c894-2b4f-4c4c-a656-93d58dfb6df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FX_round">
+      <UniqueIdentifier>{9cb8bd25-b60d-4c10-b0ee-ef2b00d7e1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\enemy">
+      <UniqueIdentifier>{31dc94a4-70e5-4536-b8e5-fa60c1bd795d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\enemy\bat">
+      <UniqueIdentifier>{8de9473c-d0f4-49d0-9df2-4b3904222ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\enemy\zombie">
+      <UniqueIdentifier>{23d9d110-6b7b-470b-9194-ca3c566f9729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\enemy\em">
+      <UniqueIdentifier>{e49afdb4-e556-452a-9a14-1a5ed69b82a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\player">
+      <UniqueIdentifier>{a3e1f212-1f42-4dcc-bbc5-07cd6153eeb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\player\girl">
+      <UniqueIdentifier>{294d5012-c2bc-4b8b-9268-f499100946b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\player\boy">
+      <UniqueIdentifier>{457d16dd-b5ba-4b71-bfb7-66a6a1178342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\weapon">
+      <UniqueIdentifier>{dabfb6bc-9361-4b45-92a6-f57b25157420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI\icon">
+      <UniqueIdentifier>{69845f8f-e7b9-4318-859c-1b18a431cf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI\text">
+      <UniqueIdentifier>{0cf774b5-0c71-457f-9432-8106fde733f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowFrame.cpp">
+      <Filter>WindowFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMGR.cpp">
+      <Filter>MGR</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationRender.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapRender.cpp">
+      <Filter>Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponController_Bounce.cpp">
+      <Filter>Component\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponController_Fall.cpp">
+      <Filter>Component\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponController_Last.cpp">
+      <Filter>Component\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponController_Round.cpp">
+      <Filter>Component\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponController_Shoot.cpp">
+      <Filter>Component\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBarController.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelController.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBtn.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRender.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMGR.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnObject.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCtrl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundCtrl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Component\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Component\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Component\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileCtrl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelCtrl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Component\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="IconCtrl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextCtrl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowFrame.h">
+      <Filter>WindowFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMGR.h">
+      <Filter>MGR</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationRender.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapRender.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponController_Bounce.h">
+      <Filter>Component\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponController_Fall.h">
+      <Filter>Component\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponController_Last.h">
+      <Filter>Component\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBarController.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelController.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBtn.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRender.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMGR.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponController_Round.h">
+      <Filter>Component\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponController_Shoot.h">
+      <Filter>Component\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnObject.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Component\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Component\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Component\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Coffin.h">
+      <Filter>Component\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Component\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Component\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="IconCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="First.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="BG.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="weapon_round\round1.bmp">
+      <Filter>Resource Files\weapon_round</Filter>
+    </Image>
+    <Image Include="weapon_round\round2.bmp">
+      <Filter>Resource Files\weapon_round</Filter>
+    </Image>
+    <Image Include="weapon_round\round3.bmp">
+      <Filter>Resource Files\weapon_round</Filter>
+    </Image>
+    <Image Include="weapon_round\round4.bmp">
+      <Filter>Resource Files\weapon_round</Filter>
+    </Image>
+    <Image Include="weapon_last\020000.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020001.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020002.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020003.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020004.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020005.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020006.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020007.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020008.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020009.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020010.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020011.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020012.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020013.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020014.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020015.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020016.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020017.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020018.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020019.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020020.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020021.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020022.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020023.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020024.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020025.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020026.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020027.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020028.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020029.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="weapon_last\020030.bmp">
+      <Filter>Resource Files\wepaon_last</Filter>
+    </Image>
+    <Image Include="list.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="playerFace.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="ui\face.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="ui\hpBar.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="ui\level.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="ui\levelBar.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="ui\barBG.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (1).bmp">
+      <Filter>Resource Files\FX_fall</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (2).bmp">
+      <Filter>Resource Files\FX_fall</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (3).bmp">
+      <Filter>Resource Files\FX_fall</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (4).bmp">
+      <Filter>Resource Files\FX_fall</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (5).bmp">
+      <Filter>Resource Files\FX_fall</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (6).bmp">
+      <Filter>Resource Files\FX_fall</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (7).bmp">
+      <Filter>Resource Files\FX_fall</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (1).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (2).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (3).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (4).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (5).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (6).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (7).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (8).bmp">
+      <Filter>Resource Files\FX_bounce</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (1).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (2).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (3).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (4).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (5).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (6).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (7).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (8).bmp">
+      <Filter>Resource Files\FX_normal</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (1).bmp">
+      <Filter>Resource Files\FX_round</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (2).bmp">
+      <Filter>Resource Files\FX_round</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (3).bmp">
+      <Filter>Resource Files\FX_round</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (4).bmp">
+      <Filter>Resource Files\FX_round</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (5).bmp">
+      <Filter>Resource Files\FX_round</Filter>
+    </Image>
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (6).bmp">
+      <Filter>Resource Files\FX_round</Filter>
+    </Image>
+    <Image Include="bat00.bmp">
+      <Filter>Resource Files\enemy\bat</Filter>
+    </Image>
+    <Image Include="bat01.bmp">
+      <Filter>Resource Files\enemy\bat</Filter>
+    </Image>
+    <Image Include="coffin.bmp">
+      <Filter>Resource Files\enemy\em</Filter>
+    </Image>
+    <Image Include="zombie00.bmp">
+      <Filter>Resource Files\enemy\zombie</Filter>
+    </Image>
+    <Image Include="zombie02.bmp">
+      <Filter>Resource Files\enemy\zombie</Filter>
+    </Image>
+    <Image Include="zombie01.bmp">
+      <Filter>Resource Files\enemy\zombie</Filter>
+    </Image>
+    <Image Include="player00.bmp">
+      <Filter>Resource Files\player\girl</Filter>
+    </Image>
+    <Image Include="player01.bmp">
+      <Filter>Resource Files\player\girl</Filter>
+    </Image>
+    <Image Include="player02.bmp">
+      <Filter>Resource Files\player\girl</Filter>
+    </Image>
+    <Image Include="player03.bmp">
+      <Filter>Resource Files\player\girl</Filter>
+    </Image>
+    <Image Include="player04.bmp">
+      <Filter>Resource Files\player\girl</Filter>
+    </Image>
+    <Image Include="player05.bmp">
+      <Filter>Resource Files\player\girl</Filter>
+    </Image>
+    <Image Include="player06.bmp">
+      <Filter>Resource Files\player\girl</Filter>
+    </Image>
+    <Image Include="ui\frame.bmp">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Weapon_Fall (1).bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="Weapon_Fall (2).bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="Weapon_Fall (3).bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="Weapon_Fall (4).bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="Weapon_Round.bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="Weapon_Shoot1.bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="Weapon_Shoot2.bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="ui\shoot_icon.bmp">
+      <Filter>Resource Files\UI\icon</Filter>
+    </Image>
+    <Image Include="ui\fall_icon.bmp">
+      <Filter>Resource Files\UI\icon</Filter>
+    </Image>
+    <Image Include="ui\last_icon.bmp">
+      <Filter>Resource Files\UI\icon</Filter>
+    </Image>
+    <Image Include="ui\round_icon.bmp">
+      <Filter>Resource Files\UI\icon</Filter>
+    </Image>
+    <Image Include="ui\Text\wPlus.bmp">
+      <Filter>Resource Files\UI\text</Filter>
+    </Image>
+    <Image Include="ui\Text\wAdd.bmp">
+      <Filter>Resource Files\UI\text</Filter>
+    </Image>
+    <Image Include="ui\Text\Title.bmp">
+      <Filter>Resource Files\UI\text</Filter>
+    </Image>
+    <Image Include="ui\Text\spdPlus.bmp">
+      <Filter>Resource Files\UI\text</Filter>
+    </Image>
+    <Image Include="ui\Text\hpPlus.bmp">
+      <Filter>Resource Files\UI\text</Filter>
+    </Image>
+    <Image Include="ui\Text\ex_clickScreen.bmp">
+      <Filter>Resource Files\UI\text</Filter>
+    </Image>
+    <Image Include="ui\Text\dmgPlus.bmp">
+      <Filter>Resource Files\UI\text</Filter>
+    </Image>
+    <Image Include="Weapon_Bounce1.bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="Weapon_Bounce2.bmp">
+      <Filter>Resource Files\weapon</Filter>
+    </Image>
+    <Image Include="ui\bounce_icon.bmp">
+      <Filter>Resource Files\UI\icon</Filter>
+    </Image>
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_00.bmp">
+      <Filter>Resource Files\player\boy</Filter>
+    </Image>
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_01.bmp">
+      <Filter>Resource Files\player\boy</Filter>
+    </Image>
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_02.bmp">
+      <Filter>Resource Files\player\boy</Filter>
+    </Image>
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_03.bmp">
+      <Filter>Resource Files\player\boy</Filter>
+    </Image>
+    <Image Include="ui\Text\ClickL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ui\Text\clickR.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ui\mPlayer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ui\Text\ex_end.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

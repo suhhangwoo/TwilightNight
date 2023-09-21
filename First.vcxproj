@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{31BB149F-6848-4C47-B319-B687B839E943}</ProjectGuid>
+    <RootNamespace>First</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.32708.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/First.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/First.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Release/First.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/First.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/First.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/First.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/First.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Debug/First.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/First.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/First.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimationRender.cpp" />
+    <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="BitmapRender.cpp" />
+    <ClCompile Include="Buffer.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="CreateUI.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="HPBarController.cpp" />
+    <ClCompile Include="IconCtrl.cpp" />
+    <ClCompile Include="LevelController.cpp" />
+    <ClCompile Include="LevelCtrl.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="ObjectMGR.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="BtnObject.cpp" />
+    <ClCompile Include="ProfileCtrl.cpp" />
+    <ClCompile Include="SoundCtrl.cpp" />
+    <ClCompile Include="TextBtn.cpp" />
+    <ClCompile Include="TextCtrl.cpp" />
+    <ClCompile Include="TextRender.cpp" />
+    <ClCompile Include="TimeCtrl.cpp" />
+    <ClCompile Include="UIMGR.cpp" />
+    <ClCompile Include="WeaponController_Bounce.cpp" />
+    <ClCompile Include="WeaponController_Fall.cpp" />
+    <ClCompile Include="WeaponController_Last.cpp" />
+    <ClCompile Include="WeaponController_Round.cpp" />
+    <ClCompile Include="WeaponController_Shoot.cpp" />
+    <ClCompile Include="WindowFrame.cpp" />
+    <ClCompile Include="Zombie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationRender.h" />
+    <ClInclude Include="Bat.h" />
+    <ClInclude Include="BitmapRender.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Coffin.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="CreateUI.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="HPBarController.h" />
+    <ClInclude Include="IconCtrl.h" />
+    <ClInclude Include="LevelController.h" />
+    <ClInclude Include="LevelCtrl.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="ObjectMGR.h" />
+    <ClInclude Include="ProfileCtrl.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="BtnObject.h" />
+    <ClInclude Include="SoundCtrl.h" />
+    <ClInclude Include="TextBtn.h" />
+    <ClInclude Include="TextCtrl.h" />
+    <ClInclude Include="TextRender.h" />
+    <ClInclude Include="TimeCtrl.h" />
+    <ClInclude Include="UIMGR.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponController_Bounce.h" />
+    <ClInclude Include="WeaponController_Fall.h" />
+    <ClInclude Include="WeaponController_Last.h" />
+    <ClInclude Include="WeaponController_Round.h" />
+    <ClInclude Include="WeaponController_Shoot.h" />
+    <ClInclude Include="WindowFrame.h" />
+    <ClInclude Include="Zombie.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="First.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_00.bmp" />
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_01.bmp" />
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_02.bmp" />
+    <Image Include="..\..\문서\카카오톡 받은 파일\API0810_\API0810_\player_male_03.bmp" />
+    <Image Include="bat00.bmp" />
+    <Image Include="bat01.bmp" />
+    <Image Include="BG.bmp" />
+    <Image Include="coffin.bmp" />
+    <Image Include="list.bmp" />
+    <Image Include="player00.bmp" />
+    <Image Include="player01.bmp" />
+    <Image Include="player02.bmp" />
+    <Image Include="player03.bmp" />
+    <Image Include="player04.bmp" />
+    <Image Include="player05.bmp" />
+    <Image Include="player06.bmp" />
+    <Image Include="playerFace.bmp" />
+    <Image Include="ui\barBG.bmp" />
+    <Image Include="ui\bounce_icon.bmp" />
+    <Image Include="ui\face.bmp" />
+    <Image Include="ui\fall_icon.bmp" />
+    <Image Include="ui\frame.bmp" />
+    <Image Include="ui\hpBar.bmp" />
+    <Image Include="ui\last_icon.bmp" />
+    <Image Include="ui\level.bmp" />
+    <Image Include="ui\levelBar.bmp" />
+    <Image Include="ui\mPlayer.bmp" />
+    <Image Include="ui\round_icon.bmp" />
+    <Image Include="ui\shoot_icon.bmp" />
+    <Image Include="ui\Text\ClickL.bmp" />
+    <Image Include="ui\Text\clickR.bmp" />
+    <Image Include="ui\Text\dmgPlus.bmp" />
+    <Image Include="ui\Text\ex_clickScreen.bmp" />
+    <Image Include="ui\Text\ex_end.bmp" />
+    <Image Include="ui\Text\hpPlus.bmp" />
+    <Image Include="ui\Text\spdPlus.bmp" />
+    <Image Include="ui\Text\Title.bmp" />
+    <Image Include="ui\Text\wAdd.bmp" />
+    <Image Include="ui\Text\wPlus.bmp" />
+    <Image Include="Weapon_Bounce1.bmp" />
+    <Image Include="Weapon_Bounce2.bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (1).bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (2).bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (3).bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (4).bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (5).bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (6).bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (7).bmp" />
+    <Image Include="weapon_effect\weapon_effect_boom\weapon_effect_boom (8).bmp" />
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (1).bmp" />
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (2).bmp" />
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (3).bmp" />
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (4).bmp" />
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (5).bmp" />
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (6).bmp" />
+    <Image Include="weapon_effect\weapon_effect_fall\weapon_effect_fall (7).bmp" />
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (1).bmp" />
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (2).bmp" />
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (3).bmp" />
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (4).bmp" />
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (5).bmp" />
+    <Image Include="weapon_effect\weapon_effect_light\weapon_effect_light (6).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (1).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (2).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (3).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (4).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (5).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (6).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (7).bmp" />
+    <Image Include="weapon_effect\weapon_effect_nomal\weapon_effect_nomal (8).bmp" />
+    <Image Include="Weapon_Fall (1).bmp" />
+    <Image Include="Weapon_Fall (2).bmp" />
+    <Image Include="Weapon_Fall (3).bmp" />
+    <Image Include="Weapon_Fall (4).bmp" />
+    <Image Include="weapon_last\020000.bmp" />
+    <Image Include="weapon_last\020001.bmp" />
+    <Image Include="weapon_last\020002.bmp" />
+    <Image Include="weapon_last\020003.bmp" />
+    <Image Include="weapon_last\020004.bmp" />
+    <Image Include="weapon_last\020005.bmp" />
+    <Image Include="weapon_last\020006.bmp" />
+    <Image Include="weapon_last\020007.bmp" />
+    <Image Include="weapon_last\020008.bmp" />
+    <Image Include="weapon_last\020009.bmp" />
+    <Image Include="weapon_last\020010.bmp" />
+    <Image Include="weapon_last\020011.bmp" />
+    <Image Include="weapon_last\020012.bmp" />
+    <Image Include="weapon_last\020013.bmp" />
+    <Image Include="weapon_last\020014.bmp" />
+    <Image Include="weapon_last\020015.bmp" />
+    <Image Include="weapon_last\020016.bmp" />
+    <Image Include="weapon_last\020017.bmp" />
+    <Image Include="weapon_last\020018.bmp" />
+    <Image Include="weapon_last\020019.bmp" />
+    <Image Include="weapon_last\020020.bmp" />
+    <Image Include="weapon_last\020021.bmp" />
+    <Image Include="weapon_last\020022.bmp" />
+    <Image Include="weapon_last\020023.bmp" />
+    <Image Include="weapon_last\020024.bmp" />
+    <Image Include="weapon_last\020025.bmp" />
+    <Image Include="weapon_last\020026.bmp" />
+    <Image Include="weapon_last\020027.bmp" />
+    <Image Include="weapon_last\020028.bmp" />
+    <Image Include="weapon_last\020029.bmp" />
+    <Image Include="weapon_last\020030.bmp" />
+    <Image Include="Weapon_Round.bmp" />
+    <Image Include="weapon_round\round1.bmp" />
+    <Image Include="weapon_round\round2.bmp" />
+    <Image Include="weapon_round\round3.bmp" />
+    <Image Include="weapon_round\round4.bmp" />
+    <Image Include="Weapon_Shoot1.bmp" />
+    <Image Include="Weapon_Shoot2.bmp" />
+    <Image Include="zombie00.bmp" />
+    <Image Include="zombie01.bmp" />
+    <Image Include="zombie02.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
